@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+from imblearn.pipeline import Pipeline as ImbPipeline
+from imblearn.over_sampling import SMOTE
 import google.generativeai as genai
 import warnings
 warnings.filterwarnings('ignore')

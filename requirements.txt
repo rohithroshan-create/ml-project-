@@ -12,6 +12,3 @@ imblearn
 prophet
 seaborn
 google-generativeai
-
-# tensorflow (only add if you know you need it; for only classical ML, leave it out or use tensorflow>=2.11 if on py3.10)
-# faiss-cpu (do NOT include; not pip-installable on Streamlit Cloud/py3.13)

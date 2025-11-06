@@ -17,7 +17,7 @@ gemini_model = None
 if GEMINI_API_KEY:
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+        gemini_model = genai.GenerativeModel("gemini-pro")
         st.sidebar.success("✅ Gemini AI Connected")
     except Exception as e:
         st.sidebar.error(f"❌ Gemini Error: {str(e)}")

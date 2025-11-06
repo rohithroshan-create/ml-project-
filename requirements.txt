@@ -13,8 +13,5 @@ prophet
 seaborn
 google-generativeai
 
-# Supporting libraries
-tensorflow==2.9.1
-tensorflow-addons==0.17.1
-tensorflow-estimator==2.9.0
-
+# tensorflow (only add if you know you need it; for only classical ML, leave it out or use tensorflow>=2.11 if on py3.10)
+# faiss-cpu (do NOT include; not pip-installable on Streamlit Cloud/py3.13)
